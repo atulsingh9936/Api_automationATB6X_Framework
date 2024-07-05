@@ -5,17 +5,10 @@ public class Booking {
   private  String firstname;
     private   String lastname;
     private  Integer totalprice;
-    private  Boolean Depositpaid;
+    private  Boolean depositpaid;
+
     private  Bookingdates  bookingdates;
     private  String additionalneeds;
-
-    public String getFirstname() {
-        return firstname;
-    }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
 
     public String getLastname() {
         return lastname;
@@ -23,6 +16,14 @@ public class Booking {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
     public Integer getTotalprice() {
@@ -34,12 +35,16 @@ public class Booking {
     }
 
     public Boolean getDepositpaid() {
-        return Depositpaid;
+        return depositpaid;
     }
 
     public void setDepositpaid(Boolean depositpaid) {
-        Depositpaid = depositpaid;
+        this.depositpaid = depositpaid;
     }
+
+
+
+
 
     public Bookingdates getBookingdates() {
         return bookingdates;
@@ -63,7 +68,7 @@ public class Booking {
                 "firstname='" + firstname + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", totalprice=" + totalprice +
-                ", Depositpaid=" + Depositpaid +
+                ", Depositpaid=" + depositpaid +
                 ", bookingdates=" + bookingdates +
                 ", additionalneeds='" + additionalneeds + '\'' +
                 '}';

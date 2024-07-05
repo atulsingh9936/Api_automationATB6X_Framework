@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/Atul/IdeaProjects/Api_automationATB6X_Framework"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.410">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateBookingnegative"
+                time="1.272"
+                classname="com.atul.testcases.Crud.TestcreateBookingpost">
+            </testcase>
+            <testcase
+                name="testCreateBooking"
+                time="2.138"
+                classname="com.atul.testcases.Crud.TestcreateBookingpost">
+            </testcase>
+</testsuite>
